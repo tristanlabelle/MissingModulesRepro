@@ -8,5 +8,5 @@ add_library(LeafC INTERFACE)
 target_include_directories(LeafC INTERFACE LeafC)
 
 add_subdirectory(ImportLeaves)
-add_subdirectory(Support)
-add_subdirectory(Projection)
+add_subdirectory(Layer)
+add_subdirectory(ImportLayer)
