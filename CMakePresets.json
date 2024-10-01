@@ -2,26 +2,24 @@
     "version": 3,
     "cmakeMinimumRequired": {
       "major": 3,
-      "minor": 21,
+      "minor": 30,
       "patch": 0
     },
     "configurePresets": [
       {
-        "name": "debug",
-        "displayName": "Debug",
+        "name": "default",
         "generator": "Ninja",
-        "binaryDir": "${sourceDir}/build/debug",
+        "binaryDir": "${sourceDir}/build",
         "cacheVariables": {
-          "CMAKE_BUILD_TYPE": "RelWithDebInfo",
+          "CMAKE_BUILD_TYPE": "Release",
           "CMAKE_C_COMPILER": "clang-cl"
         }
       }
     ],
     "buildPresets": [
       {
-        "name": "debug",
-        "displayName": "Debug",
-        "configurePreset": "debug"
+        "name": "default",
+        "configurePreset": "default"
       }
     ]
   }
