@@ -7,5 +7,6 @@ add_library(LeafSwift STATIC Empty.swift)
 add_library(LeafC INTERFACE)
 target_include_directories(LeafC INTERFACE LeafC)
 
+add_subdirectory(ImportLeaves)
 add_subdirectory(Support)
 add_subdirectory(Projection)
