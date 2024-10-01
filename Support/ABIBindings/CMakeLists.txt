@@ -1,2 +1,1 @@
-file(GLOB_RECURSE SOURCES *.swift)
-add_library(ABIBindings STATIC ${SOURCES})
+add_library(ABIBindings STATIC Empty.swift)
