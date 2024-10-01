@@ -1,3 +1,3 @@
 add_library(WindowsRuntime STATIC Imports.swift)
-target_link_libraries(WindowsRuntime PUBLIC COM WindowsRuntime_ABI)
-target_link_libraries(WindowsRuntime PRIVATE SWRT_InternalABI)
+target_link_libraries(WindowsRuntime PUBLIC COM)
+target_link_libraries(WindowsRuntime PRIVATE LeafC)

@@ -1,5 +1,4 @@
-add_subdirectory(InternalABI)
-
-add_subdirectory(ABIBindings)
+add_subdirectory(LeafC)
+add_subdirectory(LeafSwift)
 add_subdirectory(COM)
 add_subdirectory(WindowsRuntime)

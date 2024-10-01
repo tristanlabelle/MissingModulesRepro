@@ -1,0 +1,1 @@
+add_library(LeafSwift STATIC Empty.swift)

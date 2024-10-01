@@ -1,1 +1,0 @@
-add_library(ABIBindings STATIC Empty.swift)

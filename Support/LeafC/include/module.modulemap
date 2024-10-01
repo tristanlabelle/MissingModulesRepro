@@ -1,0 +1,4 @@
+module LeafC {
+    header "Empty.h"
+    export *
+}

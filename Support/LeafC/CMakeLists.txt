@@ -1,0 +1,2 @@
+add_library(LeafC INTERFACE)
+target_include_directories(LeafC INTERFACE include)
