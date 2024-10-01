@@ -9,4 +9,6 @@ target_include_directories(LeafC INTERFACE LeafC)
 
 add_subdirectory(ImportLeaves)
 add_subdirectory(Layer)
-add_subdirectory(ImportLayer)
+
+add_library(ImportLayer STATIC ImportLayer.swift)
+target_link_libraries(ImportLayer PUBLIC Layer)
