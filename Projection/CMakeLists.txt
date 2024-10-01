@@ -1,2 +1,1 @@
 add_subdirectory(UWP)
-add_subdirectory(WinRTComponent)

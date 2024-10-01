@@ -1,4 +1,0 @@
-module WinRTComponent_ABI {
-    header "SWRT/WinRTComponent.h"
-    export *
-}

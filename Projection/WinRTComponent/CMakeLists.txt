@@ -1,2 +1,0 @@
-add_subdirectory(ABI)
-add_subdirectory(Projection)
