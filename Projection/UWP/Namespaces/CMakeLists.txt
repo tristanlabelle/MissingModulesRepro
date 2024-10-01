@@ -1,0 +1,3 @@
+add_subdirectory(WindowsFoundationCollections)
+add_subdirectory(WindowsFoundation)
+add_subdirectory(WindowsStorageStreams)

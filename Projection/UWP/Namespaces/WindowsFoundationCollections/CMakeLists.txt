@@ -1,0 +1,7 @@
+add_library(SwiftUWP_WindowsFoundationCollections STATIC
+    Aliases.swift)
+
+set_target_properties(SwiftUWP_WindowsFoundationCollections PROPERTIES Swift_MODULE_NAME UWP_WindowsFoundationCollections)
+
+target_link_libraries(SwiftUWP_WindowsFoundationCollections PUBLIC
+    SwiftUWP)
