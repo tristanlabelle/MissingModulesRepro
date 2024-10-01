@@ -1,2 +1,2 @@
-add_subdirectory(COM)
+add_subdirectory(ImportLeaves)
 add_subdirectory(WindowsRuntime)
