@@ -1,4 +1,3 @@
-add_subdirectory(COM_ABI)
 add_subdirectory(InternalABI)
 
 add_subdirectory(ABIBindings)
